@@ -1,0 +1,57 @@
+		.navbar
+		{
+			box-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+		}
+		.icon{
+			position: absolute; 
+			font-size: 80px; 
+			right: 5px; 
+			opacity: .5; 
+			top: 30px;
+		}
+		.navigasi{
+			position: relative;
+			min-width: 250px;
+			max-width: 250px;
+			box-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+			transition: all 0.4s;
+		}
+		.content{
+			width: 100%;
+		}
+		.nav-pills .nav-link:hover{
+			background: #2980b9;
+			transition: all 0.3s;
+		}
+		.card:hover{
+			box-shadow: 2px 2px 5px #000;
+			transition: all 1s;
+		}
+		.card:hover .fa-book{
+			font-size: 90px;
+			transition: all 0.5s;
+		}
+		.card:hover .fa-user-tie{
+			font-size: 90px;
+			transition: all 0.5s;
+		}
+		.card:hover .fa-user-friends{
+			font-size: 90px;
+			transition: all 0.5s;
+		}
+		.nav-pills .nav-link{
+			margin-bottom: 30px;
+		}
+		#nav{
+			text-align: center;
+		}
+		#user .navbar-brand{
+			padding: 5px;
+			color: #7f8c8d;
+		}
+		#user .navbar-brand:hover{
+			color: #fff;
+		}
+		.sidebar{
+			transition: all 0.5s;
+		}
